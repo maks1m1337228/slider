@@ -3,13 +3,8 @@
 <head>
  <meta charset="UTF-8">
  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
- <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
  <link rel="stylesheet" href="css/styles.css">
-
-
- 
- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
- <script src="index.js" defer></script>
+ <script src="js/index.js" defer></script>
  <title>YDS</title>
 </head>
 <body>
@@ -26,6 +21,22 @@
     </header>
     <main>
         <section id="slider">
+            <div class="slider">
+                <img class="slider-img" src="img/slider/001.png">
+                <img class="slider-img" src="img/slider/002.png">
+                <img class="slider-img" src="img/slider/003.png">
+
+                <div>
+                    <button class="prev controls"><</button>
+                </div>
+
+                <div>
+                    <button class="next controls"> > </button>
+                </div>
+
+
+                
+            </div>
 
         </section>
         <section id="catalog">
@@ -37,6 +48,72 @@
                         <li><a>Обувь</a></li>
                         <li><a>Одежда</a></li>
                     </ul>
+
+                    <select name="sort" id="shoes-select">
+                        <option value="">Сортировать</option>
+                        <option value="berets">Берцы</option>
+                        <option value="boots">Ботинки</option>
+                        <option value="work-shoes">Рабочая обувь</option>
+                        <option value="special-shoes">Спецобувь</option>
+                    </select>
+                </div>
+                <div class="cards">
+                    <div class="card">
+                        <img src="img/товары/ОБУВЬ/БЕРЦЫ/22-BRISA GTX UK3 -BROWN/22-brisa-gtx-uk3-kahverengi-2eb68d.jpg" alt="img">
+                        <p>BRISA GTX UK3<br>BROWN</p>
+                        <p>200$</p>
+                        
+                        <div class="card-buttons">
+                            <button id="left-card-btn"><</button>
+                            <button id="buy">Купить</button>
+                            <button id="right-card-btn">></button>
+
+                        </div>
+                    </div>
+
+
+                    <div class="card">
+                        <img src="img/товары/ОБУВЬ/БЕРЦЫ/YDS ASTOR -BLACK/yds-astor-siyah-527153.jpg" alt="img">
+
+                        <p>YDS ASTOR<br>BLACK</p>
+                        <p>250$</p>
+                        
+                        <div class="card-buttons">
+                            <button id="left-card-btn"><</button>
+                            <button id="buy">Купить</button>
+                            <button id="right-card-btn">></button>
+
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="img/товары/ОБУВЬ/БЕРЦЫ/YDS ASTOR -KHAKI/yds-astor-bot-haki-6fee2b.jpg" alt="img">
+
+                        <p>YDS ASTOR<br>KHAKI</p>
+                        <p>250$</p>
+                        
+                        <div class="card-buttons">
+                            <button id="left-card-btn"><</button>
+                            <button id="buy">Купить</button>
+                            <button id="right-card-btn">></button>
+
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="img/товары/ОБУВЬ/БЕРЦЫ/YDS ASTOR MID CUT -BLACK/yds-astor-mid-cut-siyah-4-8bde.jpg" alt="img">
+
+                        <p>YDS ASTOR MID CUT<br>BLACK</p>
+                        <p>300$</p>
+                        
+                        <div class="card-buttons">
+                            <button id="left-card-btn"><</button>
+                            <button id="buy">Купить</button>
+                            <button id="right-card-btn">></button>
+
+                        </div>
+                    </div>
+                    
                 </div>
             </div>
         </section>
